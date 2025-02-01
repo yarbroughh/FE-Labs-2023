@@ -53,22 +53,22 @@ Question 1. Creating & 'console.log()'ing variables \n`);
 
 
 console.log("Step 1:  Number of Seats on a Plane");
-var seats = 7
+let seats = 7
 console.log (seats);
 console.log("Step 2:  Cost of Groceries");
-var cost = 253.87
+let cost = 253.87
 console.log (cost);
 console.log("Step 3:  Middle Initial");
-var midinit = "H"
+let midinit = "H"
 console.log (midinit);
 console.log("Step 4:  Is it Hot Outside?");
-var hot = true
+let hot = true
 console.log (hot);
 console.log("Step 5:  First Name");
-var firstname = "Paul"
+let firstname = "Paul"
 console.log (firstname);
 console.log("Step 6:  Street Address");
-var address = "123 Oak St."
+let address = "123 Oak St."
 console.log (address);
 /*-------------------------------------------------------*/
 
@@ -108,15 +108,15 @@ Question 2. Creating & 'console.log()'ing variables \n`);
 //	Create a new variable called full name using the customer's
 //  first name, the middle initial, and a last name of your choice
 //  ↓ YOUR CODE HERE ↓
-    var lastname = "Zee"
-    var fullname = firstname + " " + midinit + " " + lastname
+    let lastname = "Zee"
+    let fullname = firstname + " " + midinit + " " + lastname
     console.log (fullname);
 
     console.log('Introduce a Customer:')
 //	Print a line to the console that introduces the customer 
 //	including the name, and saying that they live at the address variable
 //  ↓ YOUR CODE HERE ↓
-    var introduction = "This customer's name is " + fullname + " and they live at " + address
+    let introduction = "This customer's name is " + fullname + " and they live at " + address
     console.log (introduction); 
 
 
