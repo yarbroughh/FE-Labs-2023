@@ -59,14 +59,14 @@ console.log("Step 2:  Cost of Groceries");
 let cost = 253.87
 console.log (cost);
 console.log("Step 3:  Middle Initial");
-let midinit = "H"
-console.log (midinit);
+let midInit = "H"
+console.log (midInit);
 console.log("Step 4:  Is it Hot Outside?");
 let hot = true
 console.log (hot);
 console.log("Step 5:  First Name");
-let firstname = "Paul"
-console.log (firstname);
+let firstName = "Paul"
+console.log (firstName);
 console.log("Step 6:  Street Address");
 let address = "123 Oak St."
 console.log (address);
@@ -97,8 +97,8 @@ Question 2. Creating & 'console.log()'ing variables \n`);
     console.log('Fix a Birth Certificate:')
 //	A birth certificate was printed incorrectly, change the middle initial to something else
 //  ↓ YOUR CODE HERE ↓
-    midinit = "A"
-    console.log (midinit);
+    midInit = "A"
+    console.log (midInit);
     console.log('Changing Seasons:')
 //	The season has changed, update the hot outside variable	to be opposite of what it was
 //  ↓ YOUR CODE HERE ↓
@@ -108,15 +108,15 @@ Question 2. Creating & 'console.log()'ing variables \n`);
 //	Create a new variable called full name using the customer's
 //  first name, the middle initial, and a last name of your choice
 //  ↓ YOUR CODE HERE ↓
-    let lastname = "Zee"
-    let fullname = firstname + " " + midinit + " " + lastname
-    console.log (fullname);
+    let lastName = "Zee"
+    let fullName = firstName + " " + midInit + " " + lastName
+    console.log (fullName);
 
     console.log('Introduce a Customer:')
 //	Print a line to the console that introduces the customer 
 //	including the name, and saying that they live at the address variable
 //  ↓ YOUR CODE HERE ↓
-    let introduction = "This customer's name is " + fullname + " and they live at " + address
+    let introduction = "This customer's name is " + fullName + " and they live at " + address
     console.log (introduction); 
 
 
