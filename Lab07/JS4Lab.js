@@ -50,8 +50,10 @@ let drink="white wine";
 let me="Heather";
 let friend="Terri";
 
+console.log(eat, drink, me, friend)
 //Question: Name a reason why you would use const instead of let.
-//Answer: If you never want the value to change from what you initially assign it. e.g., I made matar paneer and have no other food prepared, so that's what we're eating.
+//Answer: If you never want the value to change from what you initially assign it. e.g., 
+// I made matar paneer and have no other food prepared, so that's what we're eating.
 
 /*---------------------------------- Template Literals -------------------------------------*/
 console.log(`-------------------------- 
@@ -84,7 +86,8 @@ console.log(drink);
 
 //Question: Read the error message - in your own words - what does it mean?
 //Answer:
-//We originally had drink set as a const which assigns a value that cannot be changed so we received error "Assignment to constant variable" 
+//We originally had drink set as a const which assigns a value that cannot be changed so we 
+// received error "Assignment to constant variable" 
 /*---------------------------------- Arrow Functions -------------------------------------*/
 console.log(`-------------------------- 
 Question 3: Arrow Functions`)
